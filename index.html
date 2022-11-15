@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/variables.css">
+    <link rel="stylesheet" href="./assets/css/elements.css">
+    <link rel="stylesheet" href="./assets/css/classes.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <input type="checkbox" role="button" aria-label="Close-menu" id="close-menu" class="close-menu">
+    <label class="close-menu-label" for="close-menu" title="Fechar Menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked=false;"><a href="#home">LOGO</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked=false;">
+                    <li><a href="#intro">Introdução</a></li>
+                    <li><a href="#grid-one">Simpatias</a></li>
+                    <li><a href="#gallery">Galleria</a></li>
+                    <li><a href="#grid-two">Cassinos</a></li>
+                    <li><a href="#pricing">Preços</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"></div>
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Yoshi levava socos de Mário</h2>
+                <p>Muitos fãs da série de jogos de videogame Super Mario World se questionavam se o protagonista batia
+                    ou não na cabeça de Yoshi para que ele pegasse itens com a língua.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/game.svg" alt="foto controle videogame">
+            </div>
+        </div>
+    </section>
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Top 3 Simpatias</h2>
+            <p>Uma das simpatias com folha de louro que você pode fazer em casa envolve o objetivo de ganhar dinheiro.
+                Você precisará de um cadeado dourado de tamanho pequeno e conferir quando ocorrerá a próxima Lua Nova.
+                Neste dia, logo pela manhã, deixe o cadeado sobre a folha de louro até que o sol se ponha.</p>
+            <p>Coloque 3 dentes de alho, 1 rodela de cebola e 1 folha de louro no interior de uma xícara de chá comum.
+                Isso precisa ser feito assim que acordar, logo pela manhã. Deixe sua simpatia em um local alto no
+                interior da residência.</p>
+            <p>A lista de simpatias com folha de louro termina com um ritual para trazer sorte e blindar o corpo contra
+                energias ruins. Você precisa misturar 3 folhas de louro, 3 folhas de alecrim e 3 ramos de manjericão
+                dentro de um recipiente.</p>
+        </div>
+    </section>
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Magia</h2>
+            <p class="grid-description">Simpatias com folha de louro.</p>
+            <div class="grid">
+                <article>
+                    <h3>Simpatia para ganhar dinheiro</h3>
+                    <p>Depois de tomar seu banho, pegue o cadeado e passe nas suas mãos e pés. Depois disso diga: Lua,
+                        aqui está a armadura da minha riqueza, somente eu posso destrui-la ou abri-la para que mais
+                        fortunas entrem em minha vida.</p>
+                </article>
+                <article>
+                    <h3>Simpatia para afastar o olho gordo</h3>
+                    <p>Assim que voltar para casa, no final do dia e início da noite, jogue os ingredientes no lixo,
+                        exceto a sua xícara. Basta lavar o objeto e usá-lo como de costume.</p>
+                </article>
+                <article>
+                    <h3>Simpatia para trazer mais sorte</h3>
+                    <p>Despeje 2 litros de água e mergulhe os seus pés por cinco minutos nessa mistura poderosa. Jogue
+                        sua água pelo encanamento e as ervas no lixo. Lave a bacia que utilizou e pronto.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Galeria</h2>
+            <p class="grid-description">Fotos incríveis</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=1" alt="Random image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=2" alt="Random image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=3" alt="Random image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=4" alt="Random image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=5" alt="Random image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=6" alt="Random image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="grid-two" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Cassino</h2>
+            <p class="grid-description">Top 3 Cassinos Online.</p>
+            <div class="grid">
+                <article>
+                    <h3>Roleta</h3>
+                    <p>Desde que foi criada a roleta está entre os principais jogos de cassino, ela é muito procurada
+                        por jogadores de todos os cantos do mundo. A roleta é feita em dois modelos, a Americana e a
+                        Europeia a única diferença entre as duas está na quantidade de número zero que cada máquina
+                        apresenta e isso pode mudar um pouco a forma de jogar.</p>
+                </article>
+                <article>
+                    <h3>BlackJack</h3>
+                    <p>O BlackJack é um dos jogos de cartas mais populares no Brasil, mesmo quem nunca jogou em um
+                        cassino online já deve ter experimentado o jogo. Em diversas regiões do país o jogo é conhecido
+                        como 21 já que esse é o valor que você quer alcançar com as somas das cartas para ganhar.</p>
+                </article>
+                <article>
+                    <h3>Máquinas de Slots</h3>
+                    <p>As máquinas de slots também conhecidas como caça níqueis são extremamente populares devido a sua
+                        fácil jogabilidade. Nela tudo que precisa fazer é puxar uma alavanca e torcer por padrões dentro
+                        da tela que garantem a você prêmios.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Tabela de Preços</h2>
+            <p>Por agrupar características apreciadas em ambas espécies de que provém (equinos e asinos), é um animal
+                adaptado ao transporte de cargas, tendo sido muito utilizado até meados do século XX, principalmente em
+                locais de topografia acidentada. É mais resistente a doenças e a fadiga que o cavalo.</p>
+            <p>O cavalo (Equus ferus caballus) é uma das duas subespécies existentes de Equus ferus. É um mamífero
+                perissodáctilo pertencente à família taxonômica Equidae. O cavalo evoluiu há entre 45 milhões a 55
+                milhões de anos, desde uma pequena criatura com vários dedos, o Eohippus, até o animal grande e com um
+                único dedo de hoje.</p>
+            <p>Vitelo, viterlor, terneiro, bezerro ou novilho são termos utilizados para descrever o boi que se encontra
+                na idade de 1 a 6 meses, impróprio ainda para o abate, mas tem larga utilização na recria, que é a venda
+                desses animais para um outro produtor engordar e abater. Sua carne é chamada vitela.</p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Preços</caption>
+                    <thead>
+                        <tr>
+                            <th>Bezerro</th>
+                            <th>Cavalinho</th>
+                            <th>Mula</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>x1 por R$2,10</td>
+                            <td>x1 por R$3,40</td>
+                            <td>x1 por R$8,90</td>
+                        </tr>
+                        <tr>
+                            <td>x2 por R$4,00</td>
+                            <td>x2 por R$6,20</td>
+                            <td>x2 por R$17,00</td>
+                        </tr>
+                        <tr>
+                            <td>x3 por R$5,90</td>
+                            <td>x3 por R$9,00</td>
+                            <td>x3 por R$24,50</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>Tá barato!</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Contate-nos</h2>
+                <p>Telefone é um sistema de telecomunicações capaz de transmitir som através de sinais elétricos nas redes de telefone. É definido como um aparelho eletroacústico que permite a transformação, no ponto transmissor, de energia acústica em energia elétrica e, no ponto receptor, a energia elétrica é transformada novamente em acústica, permitindo desta forma a troca de informações (através da fala) entre dois ou mais usuários. Para haver êxito nessa comunicação, os aparelhos necessitam estar comutados (ligados) a uma central telefônica.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/game.svg" alt="foto controle videogame">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contate-nos</legend>
+                    <div class="form-group">
+                        <label for="first-name">Primeiro Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu Primeiro Nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Último Nome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu Último Nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Seu E-mail">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer class="white-bg"><p><a rel="nofollow" target="_blank" href="https://www.instagram.com/lucas1vargas/">Atividade realizada por Lucas Vargas</a></p></footer>
+    <a class="back-to-top" href="#">❱</a>
+</body>
+
+</html>
